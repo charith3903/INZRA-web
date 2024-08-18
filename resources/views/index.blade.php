@@ -33,14 +33,14 @@
                 <ul class="cs_nav_list fw-medium text-uppercase">
                   <li class="menu-item-has-children">
                     <a href="{{ url('index') }}">Home</a>
-                    <ul>
+                    {{-- <ul>
                       <li><a href="{{ url('index') }}">Business</a></li>
                       <li><a href="{{ url('corporate') }}">Corporate</a></li>
                       <li><a href="{{ url('finance') }}">Financial institute</a></li>
                       <li><a href="{{ url('insurance') }}">Insurance Company</a></li>
                       <li><a href="{{ url('consulting') }}">Consulting Agency</a></li>
                       <li><a href="{{ url('business-with-ecommerce') }}">Business With E-Commerce</a></li>
-                    </ul>
+                    </ul> --}}
                   </li>
                   <li><a href="{{ url('about') }}">About</a></li>
                   <li class="menu-item-has-children">
@@ -114,76 +114,76 @@
 
     <!-- Start Hero -->
     <section class="cs_hero_1-wrap position-relative cs_hero_slider bg-primary">
-      <div class="cs_swiper_parallax_slider_wrap">
-        <div class="cs_parallax_slider loading">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
-                <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_1.jpg') }}">
-                  <img src="{{ asset('assets/img/hero_slider_1.jpg') }}" alt="Slider" class="cs_entity_img">
-                  <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
-                </figure>
-                <div class="container">
-                  <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
-                    <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">This Week Only for World Premier</h2>
-                    <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
-                      Inventive and interested <br>in innovation
-                    </h1>
-                    <p class="text-white cs_mb_20">
-                      I have been a loyal customer of this auto parts company for years and I cannot <br>recommend them enough. Their extensive selection of high-quality parts and <br> accessories.
-                    </p>
-                    <div class="cs_hero_btn">
-                      <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
-                <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_2.jpg') }}">
-                  <img src="{{ asset('assets/img/hero_slider_2.jpg') }}" alt="Slider" class="cs_entity_img">
-                  <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
-                </figure>
-                <div class="container">
-                  <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
-                    <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">This Week Only for World Premier</h2>
-                    <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
-                      Inventive and interested <br>in innovation
-                    </h1>
-                    <p class="text-white cs_mb_20">
-                      I have been a loyal customer of this auto parts company for years and I cannot <br>recommend them enough. Their extensive selection of high-quality parts and <br> accessories.
-                    </p>
-                    <div class="cs_hero_btn">
-                      <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
-                <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_3.jpg') }}">
-                  <img src="{{ asset('assets/img/hero_slider_3.jpg') }}" alt="Slider" class="cs_entity_img">
-                  <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
-                </figure>
-                <div class="container">
-                  <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
-                    <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">This Week Only for World Premier</h2>
-                    <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
-                      Inventive and interested <br>in innovation
-                    </h1>
-                    <p class="text-white cs_mb_20">
-                      I have been a loyal customer of this auto parts company for years and I cannot <br>recommend them enough. Their extensive selection of high-quality parts and <br> accessories.
-                    </p>
-                    <div class="cs_hero_btn">
-                      <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
-                    </div>
-                  </div>
+  <div class="cs_swiper_parallax_slider_wrap">
+    <div class="cs_parallax_slider loading">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
+            <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_1.jpg') }}">
+              <img src="{{ asset('assets/img/hero_slider_1.jpg') }}" alt="Slider" class="cs_entity_img">
+              <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
+            </figure>
+            <div class="container">
+              <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
+                <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">This Week Only: AI Services & Web Design Sri Lanka</h2>
+                <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
+                  Leading AI Services & Web Design in Sri Lanka <br> for Your Business Needs
+                </h1>
+                <p class="text-white cs_mb_20">
+                  Discover our top-notch AI services and web design in Sri Lanka, providing innovative AI solutions <br> tailored to drive your business forward. Partner with us for high-quality, result-driven AI platforms and <br> custom web design that set you apart in the competitive landscape.
+                </p>
+                <div class="cs_hero_btn">
+                  <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
+            <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_2.jpg') }}">
+              <img src="{{ asset('assets/img/hero_slider_2.jpg') }}" alt="Slider" class="cs_entity_img">
+              <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
+            </figure>
+            <div class="container">
+              <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
+                <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">Innovative AI Solutions & Web Design</h2>
+                <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
+                  Your Trusted Partner in AI Services <br> and Web Design Sri Lanka
+                </h1>
+                <p class="text-white cs_mb_20">
+                  We specialize in delivering innovative AI services and exceptional web design in Sri Lanka, <br> ensuring your business excels in a dynamic market. Choose our AI platforms for cutting-edge solutions <br> and web design that captures your brand’s essence.
+                </p>
+                <div class="cs_hero_btn">
+                  <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cs_hero cs_style_1 d-flex align-items-center justify-content-center background-filled position-relative overflow-hidden">
+            <figure class="cs_swiper_parallax_bg" data-src="{{ asset('assets/img/hero_slider_3.jpg') }}">
+              <img src="{{ asset('assets/img/hero_slider_3.jpg') }}" alt="Slider" class="cs_entity_img">
+              <div class="bg-primary opacity-75 position-absolute w-100 h-100 start-0 top-0"></div>
+            </figure>
+            <div class="container">
+              <div class="cs_hero_text position-relative cs_zindex_5 d-inline-block">
+                <h2 class="text-white cs_mb_5 fw-normal cs_fs_18">Premier AI Services & Web Design in Sri Lanka</h2>
+                <h1 class="text-white cs_mb_16 cs_fs_60 cs_fs_lg_46">
+                  Unleash Innovation with AI Services <br> and Web Design Sri Lanka
+                </h1>
+                <p class="text-white cs_mb_20">
+                  Elevate your business with our innovative AI services and web design in Sri Lanka. We combine the best AI platforms <br> with stunning web design to deliver outstanding results that resonate with your audience.
+                </p>
+                <div class="cs_hero_btn">
+                  <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
           <!-- If we need navigation buttons -->
           <div class="cs_slider_navigation d-flex cs_row_gap_15 flex-column position-absolute
           cs_zindex_4">
@@ -290,7 +290,9 @@
                 </div>
                 <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ url('services-details') }}" class="inline-block">Web Designing</a></h2>
               </div>
-              <p class="cs_mb_24">Services related to financial record-keeping, bookkeeping, preparation.</p>
+              <p class="cs_mb_24">
+                Our Web Designing services create visually stunning and user-friendly websites that effectively communicate your brand's message and engage your audience.
+              </p>
               <div class="cs_service_thumb position-relative cs_rounded_5">
                 <a href="{{ url('services-details') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,7 +325,9 @@
                 </div>
                 <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ url('services-details') }}" class="inline-block">AI Related Services</a></h2>
               </div>
-              <p class="cs_mb_24">Providing technical support, network setup, software installation.</p>
+              <p class="cs_mb_24">
+                We offer cutting-edge AI solutions that enhance your business processes, drive innovation, and improve decision-making through intelligent automation, lets do this....
+              </p>
               <div class="cs_service_thumb position-relative cs_rounded_5">
                 <a href="{{ url('services-details') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -353,7 +357,9 @@
                 </div>
                 <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ url('services-details') }}"  class="inline-block">Marketing and Advertising</a></h2>
               </div>
-              <p class="cs_mb_24">Services that help businesses create and execute market strategies.</p>
+              <p class="cs_mb_24">
+                Our Social Media Marketing strategies help you connect with your audience, increase brand awareness, and drive traffic to your website through targeted campaigns.
+              </p>
               <div class="cs_service_thumb position-relative cs_rounded_5">
                 <a href="{{ url('services-details') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +382,9 @@
                 </div>
                 <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ url('services-details') }}"  class="inline-block">Search Engine Optimization</a></h2>
               </div>
-              <p class="cs_mb_24">Assistance with HR-related tasks such as recruitment, training, performance.</p>
+              <p class="cs_mb_24">
+                With our SEO Optimization services, we improve your website’s search engine rankings, increase visibility, and attract more qualified leads to your business.
+              </p>
               <div class="cs_service_thumb position-relative cs_rounded_5">
                 <a href="{{ url('services-details') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">

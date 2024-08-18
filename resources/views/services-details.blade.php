@@ -11,13 +11,12 @@
             <div class="cs_service_list cs_mb_40">
               <h2 class="cs_fs_20 text-white text-uppercase bg-accent cs_pl_30 cs_pr_30 cs_pt_23 cs_pb_23 m-0">All Services</h2>
               <ul class="m-0 cs_pl_30 cs_pr_30 cs_pt_30 cs_pb_30">
-                <li><a href="{{ url('services-details') }}" class="active">Accounting and Bookkeeping <i class="fa-solid fa-arrow-right-long"></i></a></li>
-                <li><a href="{{ url('services-details') }}">Marketing and Advertising <i class="fa-solid fa-arrow-right-long"></i></a></li>
-                <li><a href="{{ url('services-details') }}">IT Support and Consulting <i class="fa-solid fa-arrow-right-long"></i></a></li>
-                <li><a href="{{ url('services-details') }}">Human Resources <i class="fa-solid fa-arrow-right-long"></i></a></li>
-                <li><a href="{{ url('services-details') }}">Web Development <i class="fa-solid fa-arrow-right-long"></i></a></li>
-                <li><a href="{{ url('services-details') }}">SEO & Content Writing <i class="fa-solid fa-arrow-right-long"></i></a></li>
+                <li><a href="{{ url('services-details') }}" class="active">AI Solutions <i class="fa-solid fa-arrow-right-long"></i></a></li>
+                <li><a href="{{ url('services-details') }}">Web Designing <i class="fa-solid fa-arrow-right-long"></i></a></li>
+                <li><a href="{{ url('services-details') }}">Social Media Marketing <i class="fa-solid fa-arrow-right-long"></i></a></li>
+                <li><a href="{{ url('services-details') }}">SEO Optimization <i class="fa-solid fa-arrow-right-long"></i></a></li>
               </ul>
+
             </div>
             <div class="cs_quick_contact_card background-filled cs_mb_40 text-center" data-src="assets/img/service-list-card.jpeg">
               <div class="cs_quick_contact_card_in">
@@ -36,7 +35,7 @@
                     <rect width="50" height="50" fill="white"/>
                     </clipPath>
                     </defs>
-                  </svg>                  
+                  </svg>
                 </div>
                 <h2 class="cs_fs_48 cs_fs_lg_36 text-white cs_mb_40">Have Any Query Feel Free Contact</h2>
                 <a href="{{ url('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Contact Us</span></a>
@@ -77,7 +76,7 @@
                       <path d="M11.7175 15.6958H6.55492C5.60492 15.6958 4.83203 16.4687 4.83203 17.4187V22.5813C4.83203 23.5312 5.60492 24.3041 6.55492 24.3041H11.7175C12.6674 24.3041 13.4403 23.5312 13.4403 22.5813V17.4187C13.4402 16.4687 12.6674 15.6958 11.7175 15.6958ZM12.2684 22.5813C12.2684 22.8851 12.0212 23.1322 11.7174 23.1322H6.55492C6.25109 23.1322 6.00391 22.8851 6.00391 22.5813V17.4187C6.00391 17.1149 6.25109 16.8677 6.55492 16.8677H11.7175C12.0213 16.8677 12.2684 17.1149 12.2684 17.4187L12.2684 22.5813Z" fill="white"/>
                       <path d="M11.7175 26.5483H6.55492C5.60492 26.5483 4.83203 27.3212 4.83203 28.2712V33.4338C4.83203 34.3837 5.60492 35.1566 6.55492 35.1566H11.7175C12.6674 35.1566 13.4403 34.3837 13.4403 33.4338V28.2712C13.4402 27.3212 12.6674 26.5483 11.7175 26.5483ZM12.2684 33.4338C12.2684 33.7376 12.0212 33.9847 11.7174 33.9847H6.55492C6.25109 33.9847 6.00391 33.7376 6.00391 33.4338V28.2712C6.00391 27.9674 6.25109 27.7202 6.55492 27.7202H11.7175C12.0213 27.7202 12.2684 27.9674 12.2684 28.2712L12.2684 33.4338Z" fill="white"/>
                       <path d="M37.0414 5.19195C35.5098 4.52484 33.721 5.22773 33.0537 6.7593L32.8784 7.16164V4.14C32.8784 1.85719 31.0212 0 28.7384 0H5.27867C2.99586 0 1.13867 1.85719 1.13867 4.14V35.86C1.13867 38.1428 2.99586 40 5.27867 40H28.7384C31.0212 40 32.8784 38.1428 32.8784 35.86V22.3316C33.1787 21.6423 38.2757 9.94398 38.6087 9.17969C39.2777 7.64445 38.5766 5.86086 37.0414 5.19195ZM22.1896 31.6934H16.213C15.8894 31.6934 15.6271 31.9557 15.6271 32.2794C15.6271 32.603 15.8894 32.8653 16.213 32.8653H21.6816C21.4048 33.5308 21.2655 34.2334 21.2702 34.9561V34.9562L21.2962 38.8281H5.27867C3.64203 38.8281 2.31055 37.4966 2.31055 35.86V4.14C2.31055 2.50336 3.64203 1.17188 5.27867 1.17188H28.7384C30.375 1.17188 31.7065 2.50336 31.7065 4.14V9.85125C30.9661 11.5505 28.8855 16.3256 28.1616 17.9872H16.2131C15.8895 17.9872 15.6272 18.2495 15.6272 18.5731C15.6272 18.8968 15.8895 19.1591 16.2131 19.1591H27.651L26.9182 20.841H16.2131C15.8895 20.841 15.6272 21.1033 15.6272 21.427C15.6272 21.7506 15.8895 22.0129 16.2131 22.0129H26.4076L23.4331 28.8396H16.2131C15.8895 28.8396 15.6272 29.1019 15.6272 29.4255C15.6272 29.7492 15.8895 30.0115 16.2131 30.0115H22.9225L22.1896 31.6934ZM22.4421 34.9483C22.4409 34.7615 22.4532 34.5766 22.4762 34.3937C22.9887 34.617 22.2743 34.3057 25.572 35.7425C25.4537 35.8839 25.3267 36.0188 25.1891 36.1451L22.4669 38.642L22.4421 34.9483ZM31.7065 35.86C31.7065 37.4966 30.375 38.8281 28.7384 38.8281H23.9977L25.9812 37.0088C26.5362 36.4996 26.9702 35.8914 27.2712 35.2008L31.7065 25.0211V35.86ZM26.1968 34.7327C26.1963 34.7337 26.1958 34.7347 26.1953 34.7358L25.0294 34.2278L27.7874 27.8978C27.9166 27.6011 27.7809 27.2559 27.4843 27.1266C27.1875 26.9974 26.8423 27.1331 26.713 27.4297L23.955 33.7597L22.7891 33.2517C22.7896 33.2507 22.7899 33.2496 22.7904 33.2486L31.7481 12.6898L32.9141 13.1977L27.8071 24.9187C27.6779 25.2155 27.8136 25.5607 28.1102 25.69C28.4086 25.8199 28.7529 25.682 28.8815 25.3869L33.9884 13.6658L35.1544 14.1737C35.0119 14.5009 26.3323 34.4216 26.1968 34.7327ZM35.6226 13.0994L32.2162 11.6153L32.7977 10.2808L36.2041 11.7649L35.6226 13.0994ZM37.5344 8.71156L36.6721 10.6905L33.2658 9.20641L34.128 7.22742C34.5371 6.28828 35.6341 5.85711 36.5733 6.26633C37.5145 6.67633 37.9448 7.77 37.5344 8.71156Z" fill="white"/>
-                    </svg>                                      
+                    </svg>
                   </div>
                   <div>
                     <h2 class="m-0 fw-medium cs_fs_20 cs_lh_base">Accounting and Bookkeeping</h2>
@@ -99,7 +98,7 @@
                       <rect width="40" height="40" fill="white"/>
                       </clipPath>
                       </defs>
-                    </svg>                      
+                    </svg>
                   </div>
                   <div>
                     <h2 class="m-0 fw-medium cs_fs_20 cs_lh_base">IT Support and Consulting</h2>
@@ -156,7 +155,7 @@
       </div>
     </section>
     <!-- End Service Details Section -->
-    
+
 
     <!-- Start Contact Section -->
     <section class="cs_pt_133 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80 background-filled" data-src="assets/img/contact_bg_2.jpeg">
@@ -194,5 +193,5 @@
       </div>
     </section>
     <!-- End Contact Section -->
-    
+
     @endsection
